@@ -1,0 +1,16 @@
+{
+  "python.defaultInterpreterPath": "venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ms-python.black-formatter",
+
+  // Flake8 (prek ms-python.flake8)
+  "flake8.args": ["--max-line-length=88"],
+
+  // Mypy (prek ms-python.mypy-type-checker)
+  "mypy-type-checker.runUsingActiveInterpreter": true,
+  "mypy-type-checker.args": ["--ignore-missing-imports"],
+
+  "terminal.integrated.defaultProfile.linux": "bash"
+}
